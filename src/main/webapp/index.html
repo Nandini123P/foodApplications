@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register and Login</title>
+</head>
+<body>
+    <h1>Welcome to FoodApp</h1>
+    <div>
+        <h2>Register</h2>
+        <form action="register" method="post">
+            <label>Name: <input type="text" name="userName" required></label><br>
+            <label>Email: <input type="email" name="email" required></label><br>
+            <label>Password: <input type="password" name="password" required></label><br>
+            <label>Mobile: <input type="tel" name="mobile" required></label><br>
+            <input type="submit" value="Register">
+        </form>
+    </div>
+    <div>
+        <h2>Login</h2>
+        <form action="login" method="post">
+            <label>Email: <input type="email" name="email" required></label><br>
+            <label>Password: <input type="password" name="password" required></label><br>
+            <input type="submit" value="Login">
+        </form>
+    </div>
+</body>
+</html>
